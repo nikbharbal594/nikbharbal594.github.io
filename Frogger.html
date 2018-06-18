@@ -1,0 +1,61 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>My Portfolio</title>
+        <link href="styles.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+    </head>
+    <body>
+        <header>
+            <p>
+                <span id="title">My Portfolio</span><br>
+                <span id="name">Nikhil Bhardwaj Balaji</span><br>
+                <span id="obj">Aspiring front-end developer</span>
+            </p>
+        </header>
+        <h1 class="heading">FROGGER GAME</h1>
+        <div class="gallery">
+            <div class="g-inner-p2">
+                <img src="Images/p-2/Level-1.png">
+            </div>        
+            <div class="g-inner-p2">
+                <img src="Images/p-2/Level-2.png">
+            </div>
+            <div class="g-inner-p2">
+                <img src="Images/p-2/Level-3.png">
+            </div>
+        </div>
+        <div class="main">
+            <p>
+                In this cool and fun project that was a part of the Udacity course on object-oriented JavaScript, I tried recreating
+                the classic arcade game Frogger. My task was to write the main object-oriented JS code for creating the player, enemy
+                and collectible (gem) objects and also functions for rendering and updating their positions and updating the game level
+                while being provided with a game loop engine file and image loading utility file, both written in JavaScript. The game loop engine,
+                draws the initial game board on the screen using the HTML canvas, and then calls the update and render
+                methods on the player, enemy and gem objects iteratively. The image loading utility file provides a cache facility for 
+                frequently used images, and hence makes the image loading process easier.<br>
+                The objective of the game in each level is to make the player reach the target, i.e., the water without getting hit
+                by the enemy bugs on one of the three rows covered by stone blocks on the game screen. When this is achieved, the 
+                game progresses on to the next level. There are three levels in total and the player wins the game when he completes 
+                all three levels successfully. The player is given three lives at the start of the game and he loses a life each time
+                he gets hit by a bug. Further, the enemies in each level move faster than those in the previous one, thus making it 
+                harder to safely make it to the target without getting hit. When a player loses all three of his lives, the game ends 
+                and he has to start all over again from level 1. On the other hand, there is a gem to collect in each level popping up at a random 
+                position as a reward! The blue gem provides 50 bonus points, the green gem will give 100 and the orange gem will give 200 points.
+                Also, the player's score gets increased by 100 points when he completes a level. Putting it in a nutshell, the overall objective of the game
+                is to score the maximum number of points possible losing as few lives as possible (or none).
+            </p>
+            <p id="homelink">
+                <a href="index.html">⟵ Back to homepage</a>
+            </p>
+        </div>
+        <footer  id="contact">
+            <ul class="contact">
+            <li><i class="fab fa-linkedin fa-2x"></i>https://www.linkedin.com/in/nikhil-bhardwaj-balaji</li>
+            <li><i class="far fa-envelope fa-2x"></i>nikhilb.94@gmail.com</li>
+            <li><i class="fas fa-phone-square fa-2x"></i>+91 8610089647</li>
+            </ul>
+        </footer>
+    </body>
+</html>

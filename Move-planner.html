@@ -1,0 +1,58 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>My Portfolio:Move Planner App</title>
+        <link href="styles.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+    </head>
+    <body>
+        <header>
+            <p>
+                <span id="title">My Portfolio</span><br>
+                <span id="name">Nikhil Bhardwaj Balaji</span><br>
+                <span id="obj">Aspiring front-end developer</span>
+            </p>
+        </header>
+        <h1 class="heading">MOVE PLANNER APP</h1>
+        <div class="gallery">
+            <div class="g-inner-p1">
+            <img class="screenshot" src="Images/p-1/Before-submitting-large.png">
+            </div>
+            <div class="g-inner-p1">
+            <img class="screenshot" src="Images/p-1/After-submitting.png">
+            <img class="screenshot" src="Images/p-1/After-submitting-scrolleddown.png">
+            </div>
+            <div class="g-inner-p1">
+            <img class="screenshot" src="Images/p-1/After-submitting_responsive.png">
+            <img class="screenshot" src="Images/p-1/After-submitting_responsive-scrolleddown.png">
+            </div>
+        </div>
+        <div class="main">
+            <p>
+               This Move Planner app works using AJAX requests to query external APIs to fetch and display information about a place
+               that the user may want to know more about, like for instance, a new city that they want to move to. The user needs to 
+               enter the complete address – the street, city and the state - in the form and once it is submitted the app displays the 
+               Google street view image of the  given address in the background, the geographical location of the address on the map, 
+               the current weather information for the city, the list of relevant Wikipedia article titles with links to the full article 
+               about the city and news articles about the city published in the recent past. For this purpose, it uses JQuery to manipulate
+               the DOM elements and query the Google Street View Image API, Google Maps Embed API, Wunderground weather API, MediaWiki API 
+               and the New York Times Article API respectively using the information entered in the form, when it is submitted. The web app 
+               is also fully responsive.<br>
+               The above screenshots show how the app interface looks before and after the form submission for say, the city of Goleta, California, USA.
+               The scrolled down view is also shown, for both a large screen and a small mobile screen. This project was a part of the Udacity
+               course on AJAX.
+            </p>
+            <p id="homelink">
+                <a href="index.html">⟵ Back to homepage</a>
+            </p>
+        </div>
+        <footer  id="contact">
+            <ul class="contact">
+            <li><i class="fab fa-linkedin fa-2x"></i>https://www.linkedin.com/in/nikhil-bhardwaj-balaji</li>
+            <li><i class="far fa-envelope fa-2x"></i>nikhilb.94@gmail.com</li>
+            <li><i class="fas fa-phone-square fa-2x"></i>+91 8610089647</li>
+            </ul>
+        </footer>
+    </body>
+</html>

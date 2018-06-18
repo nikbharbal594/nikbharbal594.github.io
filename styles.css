@@ -1,0 +1,223 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    font-family: Verdana, sans-serif;
+    background-color:darkorange
+}
+
+* {
+    box-sizing: border-box;
+}
+
+header {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px 0px;
+}
+
+header #title{
+    font-size: 2.5em;
+    font-weight: bold;
+}
+
+header #name {
+    font-size: 1.5em;
+}
+
+header #obj {
+    font-size: 1.1em;
+}
+
+.main {
+    width: 90%;
+    margin: auto;
+    padding-right: 10px;
+    padding-left: 10px;
+    text-align: justify;
+}
+
+#dp {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    border: 1px solid black;
+}
+
+#desc {
+    margin-bottom: 50px;
+}
+
+.proj {
+    height: 250px;
+}
+
+.proj:hover {
+    background-color: black;
+    color: white;
+}
+
+.p-img {
+    float:left;
+    margin-left: 10px;
+    height: 100%;
+    width: 200px;
+    padding-top: 20px;
+}
+
+.p-desc {
+    text-align: justify;
+    height: 100%;
+    float: right;
+    margin-right: 10px;
+    width: calc(100% - 240px);
+}
+
+footer {
+    margin-top: 50px;
+    background-color: black;
+    color: white;
+    font-size: 0.8em;
+}
+
+#homelink {
+    min-width: 50%;
+    margin: auto;
+    text-align: center;
+}
+
+.contact {
+    list-style-type: none;
+    width: 55%;
+    margin: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.contact li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+a:link {
+    text-decoration:none;
+}
+
+a:hover {
+    text-decoration:underline;
+}
+
+.heading {
+    text-align: center;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 90%;
+    margin: 0px auto 20px auto;
+    padding: auto 10px;
+}
+
+.g-inner-p1 {
+    margin-bottom: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.g-inner-p2 {
+    margin: 10px;
+}
+
+.screenshot {
+    max-width: 100%;
+    margin: 5px;
+}
+
+@media screen and (max-width:700px) {
+    
+    .proj {
+        height: 500px;
+    }
+    
+    .p-img {
+        width: 100%;
+        height: 250px;
+        margin: 0px;
+    }
+    
+    .p-desc {
+        width: 100%;
+        height:calc(100% - 250px);
+        margin: 0px;
+    }
+    
+    #p-1, #p-2, #p-3, #p-4, #p-5 {
+        display: block;
+        margin: auto;
+    }
+    
+    .contact {
+        width: 80%;
+        margin: auto;
+    }
+    
+    .contact li {
+        display: block;
+    }
+}
+
+@media screen and (max-width:400px) {
+    
+    header {
+        padding: 5px 0;
+    }
+    
+    header #title{
+        font-size: 2em;
+        font-weight: bold;
+    }
+    
+    header #name {
+        font-size: 1em;
+    }
+    
+    header #obj {
+        font-size: 0.8em;
+    }
+
+    .main {
+        font-size: 0.8em;
+    }
+    
+    .proj {
+        height: 600px;
+    }
+    
+    .contact {
+        width: 100%;
+    }
+
+    .contact li {
+        display: block;
+    }
+
+    .heading {
+        font-size: 1.2em;
+    }
+}
+
+
+
+
+
